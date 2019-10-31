@@ -1,0 +1,11 @@
+/config/
+/node_modules/
+/dist/
+/*.js
+/test/unit/coverage/
+/public/
+
+/src/components/
+/src/layout/
+/src/mixins/
+old_*
