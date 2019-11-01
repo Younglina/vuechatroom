@@ -38,7 +38,7 @@ async function subscribeToRoom(roomId) {
           name: message.sender.name,
           username: message.senderId,
           text: message.text,
-          date: moment(message.createdAt).format('D-MM-YYYY hh:mm:ss')
+          date: moment(message.createdAt).format('YYYY-DD-MM hh:mm:ss')
         });
       },
       onPresenceChanged: () => {

@@ -1,6 +1,6 @@
 <template>
     <div class="chat-navbar">
-      <router-link to="#" tag="span">Vue Chat</router-link>
+      <router-link to="#" tag="span">瘟猪🐖</router-link>
       <div>
         <span>{{user.name}} | </span>
         <span @click="onLogout">登出</span>
